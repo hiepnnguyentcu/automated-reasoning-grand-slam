@@ -1,0 +1,13 @@
+# Prompt Injection Defenses
+
+Part 6, Chapter 19: Agentic Coding Safety.
+
+## Objective
+
+Compare defenses by what they guarantee and measure them against an attack benchmark.
+
+## Materials
+
+- Debenedetti et al., Defeating Prompt Injections by Design, arXiv 2025.
+- Debenedetti et al., AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents, NeurIPS 2024.
+- Beurer-Kellner et al., Design Patterns for Securing LLM Agents against Prompt Injections, arXiv 2025.

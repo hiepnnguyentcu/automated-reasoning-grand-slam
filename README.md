@@ -28,6 +28,28 @@ Each folder has a README that states its objective and lists helpful materials.
 | [Part 6: AI and Reasoning](part-6-ai-and-reasoning/) | 17 to 19 | Connect machine learning and formal methods in both directions, which is where the posting's newest requirements sit and where your specialty develops. |
 | [Part 7: Original Research](part-7-original-research/) | 20 | Produce new results in automated reasoning and become known for them in the community. |
 
+## Roadmap
+
+This roadmap covers year 1 only, and later years will be decided based on how it goes. The research focus is verifying LLM output and agent behavior, built on a strong foundation. The plan assumes about 30 hours a week over 48 weeks.
+
+The 7 parts remain the taxonomy of the field, and topics outside this plan stay available for later.
+
+### Year 1: foundation and solvers
+
+The target is Parts 1 to 3 and one proof assistant.
+
+| Weeks | Focus | Done when |
+|--:|---|---|
+| 1 to 6 | [Part 1: Foundations](part-1-foundations/), with [Rust Foundations](part-3-building-the-engines/09-sat-solver/rust-foundations/) on the side | You pass the proofs of mastery for Chapters 1 to 3. |
+| 7 to 17 | [Part 2: Core Reasoning](part-2-core-reasoning/), with Rust Foundations on the side | You pass the hand traces and proofs for Chapters 4 to 8. |
+| 17 to 25 | [SAT Solver](part-3-building-the-engines/09-sat-solver/) | You solve SAT Competition benchmarks with every unsatisfiable result confirmed by an independent proof checker. |
+| 25 to 38 | [SMT Solver](part-3-building-the-engines/10-smt-solver/) | You pass differential testing against Z3 and cvc5 on SMT-LIB benchmarks in the supported logics. |
+| 38 to 40 | [Lean](part-4-remaining-methods/12-proof-assistants/lean/) | You can prove program and mathematical properties in Lean 4 using tactics and automation. |
+| 40 to 47 | [Model Checker](part-3-building-the-engines/11-model-checker/) | You report verified results on Hardware Model Checking Competition benchmarks. |
+| 47 to 48 | Buffer | You have absorbed any overruns from earlier stages. |
+
+Check your pace at week 25, because the solver estimates are the least certain part of this plan. If you are well behind, or if a paper needs the time, move the Model Checker to year 2 first.
+
 ## Alignment with the posting
 
 | Posting item | Chapters | Evidence |

@@ -22,6 +22,25 @@ Prove the completeness of a propositional proof system by hand in a closed-book 
 | [First-Order Metatheory](first-order-metatheory/) | State and apply completeness, compactness, Löwenheim-Skolem and Herbrand's theorem. |
 | [First-Order Theories](first-order-theories/) | Axiomatize common theories and decide whether a formula is valid modulo a theory. |
 
+## Estimated time
+
+| Topic | Theory | Exercises | Total |
+|---|--:|--:|--:|
+| Propositional Logic | 2 h | 3.5 h | 5.5 h |
+| Proof Systems | 2.5 h | 3.5 h | 6 h |
+| Soundness and Completeness | 3 h | 5.5 h | 8.5 h |
+| First-Order Logic | 2.5 h | 3.5 h | 6 h |
+| Normal Forms and Skolemization | 2.5 h | 4.5 h | 7 h |
+| First-Order Metatheory | 2 h | 4 h | 6 h |
+| First-Order Theories (placeholder) | 2.5 h | 4.5 h | 7 h |
+| Chapter total | 17 h | 29 h | 46 h |
+
+Theory covers the lesson, worked examples, common mistakes and self-check at about 30 words per minute, which leaves time to work through the proofs. Exercises allow 5 minutes each plus 1 minute for every 8 words of the published solution, which covers attempting the exercise closed-book and checking your answer.
+
+These are planning estimates calculated from the length of each lesson, and they have not been checked against anyone's actual study time. They exclude the listed materials, revision and the proof of mastery.
+
+First-Order Theories has no lesson or exercises yet, so its row uses the average of the other topics in this chapter.
+
 ## Main materials
 
 - Huth and Ryan, Logic in Computer Science, 2nd edition.
